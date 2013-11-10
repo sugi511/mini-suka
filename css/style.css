@@ -1,0 +1,60 @@
+/* line 1, scss/sass/style.scss */
+#wrapper {
+  margin: 50px auto;
+  float: none;
+}
+/* line 4, scss/sass/style.scss */
+#wrapper h1 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+/* line 9, scss/sass/style.scss */
+#main {
+  position: relative;
+}
+/* line 11, scss/sass/style.scss */
+#main .square {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+/* line 17, scss/sass/style.scss */
+.square {
+  border: 2px solid #f33;
+  min-width: 70px;
+  width: 200px;
+  min-height: 50px;
+  box-sizing: border-box;
+}
+/* line 23, scss/sass/style.scss */
+.square > * {
+  box-sizing: border-box;
+  position: relative;
+}
+/* line 26, scss/sass/style.scss */
+.square > * > .img-wrapper {
+  position: absolute;
+}
+/* line 30, scss/sass/style.scss */
+.square .top {
+  border-bottom: 1px solid blue;
+  display: none;
+  overflow: hidden;
+}
+/* line 35, scss/sass/style.scss */
+.square .bottom {
+  display: none;
+  overflow: hidden;
+}
+
+/* line 42, scss/sass/style.scss */
+.ui-resizable-helper {
+  border: 1px dotted #f33;
+}
+
+/* line 44, scss/sass/style.scss */
+#main .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+  opacity: inherit;
+}
